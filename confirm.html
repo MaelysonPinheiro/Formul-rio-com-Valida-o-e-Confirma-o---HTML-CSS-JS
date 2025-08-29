@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Confirmação</h2>
+    <p><strong>Nome:</strong> <span id="c-nome"></span></p>
+    <p><strong>Email:</strong> <span id="c-email"></span></p>
+    <p><strong>Telefone:</strong> <span id="c-telefone"></span></p>
+    <p><strong>Mensagem:</strong> <span id="c-msg"></span></p>
+
+    <button id="btt-inc" onclick="conf()">Confirmar</button>
+
+    <script>
+    document.getElementById('c-nome').textContent = localStorage.getItem('nome');
+    document.getElementById('c-email').textContent = localStorage.getItem('email');
+    document.getElementById('c-telefone').textContent = localStorage.getItem('telefone');
+    document.getElementById('c-msg').textContent = localStorage.getItem('mensagem');
+    function conf(){
+        alert('Confirmado e enviado!')
+    }
+    </script>
+</body>
+</html>

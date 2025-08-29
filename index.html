@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario De Envio!</h1>
+    <section id="login-input">
+        <p>Nome</p>
+        <input type="text" required minlength="3" id="nome">
+        <p>Email</p>
+        <input type="text" required pattern="@" id="email">
+        <p>Telefone</p>
+        <input type="text" required minlength="10" id="telefone">
+        <p>Mensagem</p>
+        <input type="text" required minlength="5" id="msg">
+    </section>
+    <button id="btt-inc" onclick="btt()">Enviar</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
