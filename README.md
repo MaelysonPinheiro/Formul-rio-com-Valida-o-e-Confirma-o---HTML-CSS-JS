@@ -20,6 +20,3 @@ Projeto simples de formulário em HTML, CSS e JavaScript que realiza a **valida�
 - Redirecionamento automático para a página de confirmação.
 - Exibição dinâmica dos dados preenchidos pelo usuário.
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SeuUsuario/seu-repositorio.git
